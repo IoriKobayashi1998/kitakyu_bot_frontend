@@ -1,6 +1,7 @@
 # kitakyu_bot_frontend
 
 ![ポスター](https://user-images.githubusercontent.com/86106572/129190922-f74be94b-a714-42a6-8a39-dc3f753463b1.jpg)
+<img src="https://user-images.githubusercontent.com/86106572/129190922-f74be94b-a714-42a6-8a39-dc3f753463b1.jpg" width="500">
 
 ![全体像1](https://user-images.githubusercontent.com/86106572/129190936-a2394ae3-a25f-4ed4-a8df-ecdca36293ca.png)
 
