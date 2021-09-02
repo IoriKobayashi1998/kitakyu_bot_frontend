@@ -57,6 +57,9 @@ pip install -r requirements.txt
 
 <img src="https://user-images.githubusercontent.com/86106572/129190922-f74be94b-a714-42a6-8a39-dc3f753463b1.jpg" width=50%>
 
+フロントエンド側（LINE DevelopersのMessaging API），Herokuとの接続方法の詳細は[共同制作者のリポジトリ](https://github.com/IoriKobayashi1998/kitakyu_bot_frontend)に公開している．
+
+
 ## Author
 - [@IoriKobayashi1998](https://github.com/IoriKobayashi1998)
 
