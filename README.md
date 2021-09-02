@@ -38,20 +38,18 @@ LINEとの送受信を可能とするためにLINE Messaging APIを用いる。
 pip install -r requirements.txt
 ```
 
-```bash
-brew install ngrok
-```
-
 ## Usage
 
 1. `textdataset.txv`作成後，`T5_text_classification.ipynb'`を実行．
-2. `オンライン予測WebAPI`ディレクトリに移動，`uvicorn main:app –reload`でAPIをLANに公開．
-3. `ngrok http 8000`でWANに公開（Windowsの場合，`./ngrok http 8000`）．
+2. 
 
 
 ## Note
 
 `textdataset.tsv`は以下のようにする．
+
+
+
 
 - [共同製作者(バックエンド)のリポジトリ](https://github.com/greentiger0789/AI_LINE_Bot_T5model)
 
