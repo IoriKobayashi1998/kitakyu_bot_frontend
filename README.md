@@ -20,17 +20,11 @@ LINEとの送受信を可能とするためにLINE Messaging APIを用いる。
 
 ## Requirement
 
-- Python3.9.2
+- Python3.9.5
 
-- transformers==4.4.2 変更しようね
-- torch==1.7.1+cu110
-- torchtext==0.8.0
-- torchvision==0.8.2
-- neologdn==0.5.1
-- pydantic==1.8.2
-- fastapi==0.68.0
-- pytorch_lightning==1.2.1
-- sentencepiece==0.1.96
+- dj_database_url==0.5.0
+- line_bot_sdk==1.19.0
+- Django==3.2.4
 
 ## Installation
 
@@ -50,14 +44,11 @@ pip install -r requirements.txt
 
 
 
-
-- [共同製作者(バックエンド)のリポジトリ](https://github.com/greentiger0789/AI_LINE_Bot_T5model)
+バックエンド側（T5を用いたカテゴライズ），ngrokの詳細は[共同制作者のリポジトリ](https://github.com/greentiger0789/AI_LINE_Bot_T5model)に公開している．
 
 ### 紹介ポスター
 
 <img src="https://user-images.githubusercontent.com/86106572/129190922-f74be94b-a714-42a6-8a39-dc3f753463b1.jpg" width=50%>
-
-フロントエンド側（LINE DevelopersのMessaging API），Herokuとの接続方法の詳細は[共同制作者のリポジトリ](https://github.com/IoriKobayashi1998/kitakyu_bot_frontend)に公開している．
 
 
 ## Author
