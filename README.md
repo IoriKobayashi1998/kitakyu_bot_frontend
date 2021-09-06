@@ -81,15 +81,16 @@ git push heroku master
 7. LINE側にherokuのアドレスをセット
 
 LINE Developersの方の「Webhook URL」に、herokuのbot/callbackのアドレスを追加。
+
 8. 質問してみる
 
 「トイレの場所はどこ？」「xxの講義時間」など。
 
 ## Note
 
-`textdataset.tsv`は以下のようにする．
-
-
+##### vies.pyの編集において
+- LINE DeveropersのアカウントからAccess Tokenを読み取りviews.pyの__ACCESS_TOKEN__に入力
+- 質問テキストから質問のカテコライズをするローカルサーバをngrokを用いて建て、そのngrok numberをviews.pyの__num_ngrok__に入力
 
 バックエンド側（T5を用いたカテゴライズ）、ngrokの詳細は[共同制作者のリポジトリ](https://github.com/greentiger0789/AI_LINE_Bot_T5model)に公開している。
 
