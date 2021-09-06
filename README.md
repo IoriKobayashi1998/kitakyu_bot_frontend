@@ -88,11 +88,12 @@ LINE Developersの方の「Webhook URL」に、herokuのbot/callbackのアドレ
 
 ## Note
 
-##### vies.pyの編集において
+#### vies.pyの編集において
 - LINE DeveropersのアカウントからAccess Tokenを読み取りviews.pyの __ACCESS_TOKEN__ に入力
 - 質問テキストから質問のカテコライズをするローカルサーバをngrokを用いて建て、そのngrok numberをviews.pyの __num_ngrok__ に入力
 
-- バックエンド側（T5を用いたカテゴライズ）、ngrokの詳細は[共同制作者のリポジトリ](https://github.com/greentiger0789/AI_LINE_Bot_T5model)に公開している。
+#### 共同製作者
+バックエンド側（T5を用いたカテゴライズ）、ngrokの詳細は[共同制作者のリポジトリ](https://github.com/greentiger0789/AI_LINE_Bot_T5model)に公開している。
 
 ### 実装画面
 <img src="https://user-images.githubusercontent.com/86106572/132164667-6a3bb055-6243-48af-ad1e-a9a816b15d2f.jpg" width=50%>
@@ -103,5 +104,5 @@ LINE Developersの方の「Webhook URL」に、herokuのbot/callbackのアドレ
 ## Author
 - [@IoriKobayashi1998](https://github.com/IoriKobayashi1998)
 
-共同製作者
+__共同製作者__
 - [@greentiger0789](https://github.com/greentiger0789)
