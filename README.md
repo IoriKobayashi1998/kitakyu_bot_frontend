@@ -48,37 +48,41 @@ python manage.py startapp bot
 ```
 5. views.pyを編集する(既成のviews.pyを使用)
 6. Herokuにデプロイ
-git初期化
+
+##### git初期化
 ```
 git init
 git add .
 git commit -m 'first commit'
 ```
-herokuにリポジトリを作成
+##### herokuにリポジトリを作成
 ```
 heroku create
 ```
 自動作成されたアプリ名を覚えておく。
-以下の設定を追加する。
+
+##### 以下の設定を追加
 ```
 heroku config:set DISABLE_COLLECTSTATIC=1
 ```
-次にsettings.pyを編集。
+##### 次にsettings.pyを編集
 ```
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '「アプリ名」.herokuapp.com']
 ```
-settings.pyをコミットする。
+##### settings.pyをコミットする。
 ```
 git add kitakyu_bot_github/settings.py
 git commit -m "edit settings.py"
 ```
-herokuにデプロイ
+##### herokuにデプロイ
 ```
 git push heroku master
 ```
 7. LINE側にherokuのアドレスをセット
+
 LINE Developersの方の「Webhook URL」に、herokuのbot/callbackのアドレスを追加。
 8. 質問してみる
+
 「トイレの場所はどこ？」「xxの講義時間」など。
 
 ## Note
