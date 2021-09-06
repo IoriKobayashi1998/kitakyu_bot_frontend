@@ -1,6 +1,6 @@
 # kitakyu_bot_frontend
 
-GoogleのT5（Text-to-Text Transfer Transformer）を用いてLINEで受け取ったメッセージの文章分類を行う．
+GoogleのT5（Text-to-Text Transfer Transformer）を用いてLINEで受け取ったメッセージの文章分類を行う。
 
 今回は北九州市立大学オープンキャンパス(2021年7月)に関する質問をカテゴリ毎に分類する。
 
@@ -33,10 +33,20 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-
-1. `textdataset.txv`作成後，`T5_text_classification.ipynb'`を実行．
-2. 
-
+[Django+HerokuでLINE Messaging APIのおそ松botを作るまで](https://qiita.com/yakan10/items/b7ad35c2cbba5db81462)を参考にさせてもらって作成した。以下で示す手順はこの参考ページと共に見ていただくことを想定している。
+0. Herokuアカウント作成
+1. LINE Messaging API登録
+2. Installation(requirements.txt)
+3. Djangoプロジェクト作成
+```bash
+django-admin startproject kitakyu_bot_github
+```
+4. Djangoでbotアプリケーション作成
+```bash
+python manage.py startapp bot
+```
+5. d
+6.  
 
 ## Note
 
@@ -44,7 +54,7 @@ pip install -r requirements.txt
 
 
 
-バックエンド側（T5を用いたカテゴライズ），ngrokの詳細は[共同制作者のリポジトリ](https://github.com/greentiger0789/AI_LINE_Bot_T5model)に公開している．
+バックエンド側（T5を用いたカテゴライズ）、ngrokの詳細は[共同制作者のリポジトリ](https://github.com/greentiger0789/AI_LINE_Bot_T5model)に公開している。
 
 ### 紹介ポスター
 
