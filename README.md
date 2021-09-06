@@ -33,7 +33,8 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-[Django+HerokuでLINE Messaging APIのおそ松botを作るまで](https://qiita.com/yakan10/items/b7ad35c2cbba5db81462)を参考にさせてもらって作成した。以下で示す手順はこの参考ページと共に見ていただくことを想定している。  
+[Django+HerokuでLINE Messaging APIのおそ松botを作るまで](https://qiita.com/yakan10/items/b7ad35c2cbba5db81462)を参考にさせてもらって作成した。以下で示す手順はこの参考ページと共に見ていただくことを想定している。
+
 0. Herokuアカウント作成
 1. LINE Messaging API登録
 2. Installation(requirements.txt)
