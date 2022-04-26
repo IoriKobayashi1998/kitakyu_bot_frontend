@@ -44,6 +44,7 @@ django-admin startproject kitakyu_bot_github
 ```
 4. Djangoでbotアプリケーション作成
 ```bash
+cd kitakyu_bot_github
 python manage.py startapp bot
 ```
 5. views.pyを編集する(既成のviews.pyを使用)
