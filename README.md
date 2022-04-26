@@ -83,6 +83,7 @@ git push heroku master
 8. LINE側にherokuのアドレスをセット
 
 LINE Developersの方の「Webhook URL」に、herokuのbot/callbackのアドレスを追加。
+例）　https://「アプリ名」.herokuapp.com/callback　のように書き込み
 
 9. 質問してみる
 
