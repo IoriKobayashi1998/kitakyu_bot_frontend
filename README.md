@@ -47,8 +47,9 @@ django-admin startproject kitakyu_bot_github
 cd kitakyu_bot_github
 python manage.py startapp bot
 ```
-5. views.pyを編集する(既成のviews.pyを使用)
-6. Herokuにデプロイ
+5. アップロードしている「Procfile」をダウンロードし「manage.py」がある位置に置く
+6. views.pyを編集する(既成のviews.pyを使用)
+7. Herokuにデプロイ
 
 ##### git初期化
 ```
@@ -79,11 +80,11 @@ git commit -m "edit settings.py"
 ```
 git push heroku master
 ```
-7. LINE側にherokuのアドレスをセット
+8. LINE側にherokuのアドレスをセット
 
 LINE Developersの方の「Webhook URL」に、herokuのbot/callbackのアドレスを追加。
 
-8. 質問してみる
+9. 質問してみる
 
 「トイレの場所はどこ？」「xxの講義時間」など。
 
