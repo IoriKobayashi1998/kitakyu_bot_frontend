@@ -48,7 +48,7 @@ cd kitakyu_bot_github
 python manage.py startapp bot
 ```
 5. アップロードしている「Procfile」をダウンロードし「manage.py」がある位置に置く
-6. views.pyを編集する(既成のviews.pyを使用)
+6. views.pyを編集する(既成のviews.pyを使用)、LINEのアクセストークンをviews.pyの「ACCESS_TOKEN」に書き換える
 7. Herokuにデプロイ
 
 ##### git初期化
